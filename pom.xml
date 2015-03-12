@@ -4,7 +4,7 @@
 
     <groupId>org.mcallstar</groupId>
     <artifactId>parent</artifactId>
-    <version>1.0.4-SNAPSHOT</version>
+    <version>1.0.4</version>
     <packaging>pom</packaging>
 
     <name>[parent] Parent POM</name>
@@ -27,7 +27,7 @@
         <connection>scm:git:git://github.com:jmamcallister/parent.git</connection>
         <url>https://github.com/jmamcallister/parent.git</url>
         <developerConnection>scm:git:git@github.com:jmamcallister/parent.git</developerConnection>
-      <tag>parent-1.0.1</tag>
+      <tag>parent-1.0.4</tag>
   </scm>
 
     <distributionManagement>
