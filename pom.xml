@@ -1,11 +1,10 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.mcallstar</groupId>
     <artifactId>parent</artifactId>
-    <version>1.0.1-SNAPSHOT</version>
+    <version>1.0.2-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>[parent] Parent POM</name>
@@ -22,6 +21,13 @@
         <project-short-description>POM for other projects to inherit</project-short-description>
         <version.rpm-maven-plugin>2.1-alpha-2</version.rpm-maven-plugin>
     </properties>
+
+    <scm>
+        <connection>scm:git:git://github.com:jmamcallister/parent.git</connection>
+        <url>https://github.com/jmamcallister/parent.git</url>
+        <developerConnection>scm:git:git@github.com:jmamcallister/parent.git</developerConnection>
+      <tag>parent-1.0.1</tag>
+  </scm>
 
     <distributionManagement>
         <repository>
@@ -77,5 +83,11 @@
             </plugins>
         </pluginManagement>
     </build>
+
+    <profiles>
+        <profile>
+            <id>release</id>
+        </profile>
+    </profiles>
 
 </project>
