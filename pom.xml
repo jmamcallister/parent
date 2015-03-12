@@ -4,7 +4,7 @@
 
     <groupId>org.mcallstar</groupId>
     <artifactId>parent</artifactId>
-    <version>1.0.2-SNAPSHOT</version>
+    <version>1.0.3-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>[parent] Parent POM</name>
@@ -31,12 +31,12 @@
 
     <distributionManagement>
         <repository>
-            <id>deployment</id>
+            <id>nexus-release</id>
             <name>External Releases</name>
             <url>http://${deployment.url}/nexus/content/repositories/releases/</url>
         </repository>
         <snapshotRepository>
-            <id>deployment</id>
+            <id>nexus-snapshot</id>
             <name>External Snapshot Releases</name>
             <url>http://${deployment.url}/nexus/content/repositories/snapshots/</url>
         </snapshotRepository>
