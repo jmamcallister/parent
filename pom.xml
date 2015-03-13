@@ -4,7 +4,7 @@
 
     <groupId>org.jmamcallister</groupId>
     <artifactId>parent</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>[parent] Parent POM</name>
@@ -23,11 +23,11 @@
         <version.rpm-maven-plugin>2.1-alpha-2</version.rpm-maven-plugin>
     </properties>
 
-    <scm>
-        <connection>scm:git:git://github.com:jmamcallister/parent.git</connection>
-        <url>https://github.com/jmamcallister/parent.git</url>
-        <developerConnection>scm:git:git@github.com:jmamcallister/parent.git</developerConnection>
-      <tag>parent-1.0.1</tag>
+  <!-- Leave this indentation as it is -->
+  <scm>
+      <connection>scm:git:git://github.com:jmamcallister/parent.git</connection>
+      <url>https://github.com/jmamcallister/parent.git</url>
+      <developerConnection>scm:git:git@github.com:jmamcallister/parent.git</developerConnection>
   </scm>
 
     <distributionManagement>
